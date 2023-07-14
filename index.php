@@ -61,7 +61,7 @@ get_header();
 		// Loop through posts and use get_template_part to load the post-card template.
 		// Remember to pass the variables to the template.
 		// post-card template is located at template-parts/post-card.php
-
+		get_template_part( 'template-parts/post', 'card' )
 		?>
 
 	</div>
