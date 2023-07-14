@@ -1,0 +1,36 @@
+body,
+html {
+  margin: 0;
+  padding: 2rem 0;
+  box-sizing: border-box;
+  font-family: "elza", sans-serif;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+/* CSS for post cards */
+.posts-section
+{
+ background-color: #e7e9eb;
+}
+.card-title
+{
+  font-size: 26px;
+  color:#17293c;
+}
+.card-category
+{
+  font-size: 18px;
+  color:#fdc934;
+}
+.card-description
+{
+  font-size:18px;
+}
+.card-link
+{
+  font-size:18px;
+}
