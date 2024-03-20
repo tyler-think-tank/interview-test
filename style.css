@@ -1,0 +1,54 @@
+/*
+Theme Name: Interview Task
+Theme URI: https://www.thinktank.org.uk
+Description: Interview Task for Junior Web Developer position.
+Author: The Think Tank
+Author URL: https://www.thinktank.org.uk
+Version: 1.0
+*/
+
+
+.card-container {
+    display:flex;
+    flex-wrap:wrap;
+    background-color: #e7e9eb;
+    padding:20px;
+
+}
+
+.card-item {
+    flex:33.3%;
+
+}
+
+.category {
+    color:#fdc934;
+    font-size:18px;
+}
+
+.title {
+    font-size:26px;
+
+}
+
+.text {
+    font-size:18px;
+}
+
+.link {
+    font-size:18px; 
+}
+
+
+@media only screen and (max-width: 992px) {
+    body {
+
+     .card-container {
+         flex-direction:column;
+     }
+
+      .card-item {
+          flex:100%;
+      }
+    }
+  }
